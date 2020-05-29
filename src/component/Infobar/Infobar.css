@@ -1,0 +1,38 @@
+img{
+  height:100%;
+  width:100%;
+  
+}
+header{
+  position:sticky;
+  width:100%;
+  top:0;
+  height:50px;
+  background:#007065;
+  color:white;
+  padding:2px;
+  z-index:100;
+}
+.user-details{
+  height:100%;
+  width:60%;
+}
+.user-details span{
+  display:block;
+}
+.dp{
+  width:30%;
+  height:70%;
+  border-radius:100%;
+  margin:5px 2px 1px 2px;
+}
+.detail-txt{
+  display:inline-block;
+}
+.username{
+  text-transform:capitalize;
+  font-weight:bold;
+}
+.status{
+  font-style:italic;
+}

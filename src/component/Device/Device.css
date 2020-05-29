@@ -1,0 +1,13 @@
+.wrapper-chat{
+    display:flex;
+    justify-content:center;
+    background-color: blue;
+    width:100%;
+  }
+  .screen-container{
+    height:120%;
+    background: #efe7dd;
+  }
+  ul li{
+      list-style: none;
+  }

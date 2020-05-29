@@ -1,0 +1,58 @@
+footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background: #efe7dd;
+}
+
+.bottom {
+  justify-content: center;
+  align-items: center;
+  height:70px;
+  width:100%;
+  margin:0;
+  overflow:hidden;
+}
+.form{
+  position:absolute;
+  width: 100%;
+ 
+}
+.sendMess{
+  border-radius:50px;
+  
+}
+ textarea, .sendMess button{
+  max-height:100px;
+}
+.sendMess button
+{
+  border:none;
+  width:20%;
+  background-color:white;
+}
+.sendMess .attachment{
+ border-radius:15px 0px 0px 15px;
+ 
+}
+.sendMess .send{
+  border-radius:0px 15px 15px 0px;
+ 
+ }
+.sendMess textarea{
+  width:70%;
+  margin-left:-5px;
+  margin-right:-4px;
+  padding:5px;
+  border:none;
+  
+}
+textarea:focus,button:focus{
+  outline:none;
+}
+.sendMess{
+  width:90%;
+  min-height:100%;
+  margin:0 auto;
+  display:flex;
+}
